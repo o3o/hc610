@@ -1,0 +1,10 @@
+extends layout
+block content
+   #chart0
+   script(src='/js/egon.js')
+   script.
+      jQuery(document).ready(function() {
+         renderChart(0);
+         connectChart(0);
+      });
+

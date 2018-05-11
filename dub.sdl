@@ -1,0 +1,17 @@
+name "hc610"
+description "Esempo con highchart 6.1.0"
+authors "Orfeo Da Viá"
+copyright "Copyright © 2018, Orfeo Da Viá"
+license "proprietary"
+
+dependency "vibe-d" version="~>0.8.3"
+
+configuration "application" {
+   stringImportPaths "views"
+   targetType "executable"
+   mainSourceFile "src/app.d"
+   versions "VibeDefaultMain"
+   versions "VibeUseOpenSSL11"
+   preGenerateCommands "./pregenerate.sh"
+}
+

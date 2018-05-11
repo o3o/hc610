@@ -1,0 +1,31 @@
+// eliminare !default 
+$primary-color: color("light-blue", "darken-4");
+$secondary-color: color("light-blue", "darken-1");
+//$button-background-focus: lighten($secondary-color, 4%) !default;
+//$button-floating-background-hover: color("red", "darken-4");
+$footer-bg-color: $primary-color;
+
+/* 3. Buttons
+   ========================================================================== */
+
+// colore dei bottoni flat e normali quando si passa sopra
+$button-raised-background: $secondary-color;
+$button-raised-background-hover: lighten($button-raised-background, 5%);
+//$button-raised-background-hover: color("red", "darken-2");
+
+$card-link-color: $primary-color;
+$switch-unchecked-lever-bg: $primary-color;
+$switch-bg-color: $primary-color;
+
+$card-link-color: color("blue", "accent-2");
+$card-link-color-light: lighten($card-link-color, 20%) !default;
+
+// 17. Tabs
+// ==========================================================================
+
+$tabs-underline-color: $primary-color;
+//$tabs-underline-color: red;
+$tabs-text-color: $primary-color;
+//$tabs-text-color: white;
+$tabs-bg-color: #fff;
+//$tabs-bg-color: #01579b;
